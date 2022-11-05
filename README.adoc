@@ -1,4 +1,4 @@
-= OptaPlanner Community Central demo
+= OptaPlanner Timetable demo
 
 == Overview of all Modules
 
@@ -21,8 +21,8 @@ to search for the best solution in reasonable time.
 +
 [source, shell]
 ----
-$ git clone https://github.com/dupliaka/2022-community-central-school-timetabling.git
-$ cd 2022-community-central-school-timetabling
+$ git clone https://github.com/dupliaka/school-timetabling.git
+$ cd school-timetabling
 $ mvn clean install
 ----
 
