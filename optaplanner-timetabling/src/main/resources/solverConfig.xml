@@ -8,8 +8,13 @@
         <easyScoreCalculatorClass>org.acme.schooltimetabling.solver.TimeTableEasyScoreCalculator</easyScoreCalculatorClass>
     </scoreDirectorFactory>
     <constructionHeuristic>
+<!--        <FIRST_FIT>-->
     </constructionHeuristic>
     <localSearch>
+<!--        <changeMoveSelector/>-->
         <localSearchType>HILL_CLIMBING</localSearchType>
+<!--        <termination>-->
+<!--            <minutesSpentLimit>5</minutesSpentLimit>-->
+<!--        </termination>-->
     </localSearch>
 </solver>
