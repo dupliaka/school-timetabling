@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Properties that can be set at runtime are not included-->
+<solver>
+    <solutionClass>org.acme.schooltimetabling.domain.TimeTable</solutionClass>
+    <entityClass>org.acme.schooltimetabling.domain.Lesson</entityClass>
+    <domainAccessType>GIZMO</domainAccessType>
+    <scoreDirectorFactory>
+        <constraintProviderClass>org.acme.schooltimetabling.solver.TimeTableConstraintProvider</constraintProviderClass>
+        <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
+    </scoreDirectorFactory>
+    <constructionHeuristic>
+    </constructionHeuristic>
+    <localSearch>
+        <localSearchType>HILL_CLIMBING</localSearchType>
+    </localSearch>
+</solver>
