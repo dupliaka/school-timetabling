@@ -5,8 +5,7 @@
     <entityClass>org.acme.schooltimetabling.domain.Lesson</entityClass>
     <domainAccessType>GIZMO</domainAccessType>
     <scoreDirectorFactory>
-        <constraintProviderClass>org.acme.schooltimetabling.solver.TimeTableConstraintProvider</constraintProviderClass>
-        <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
+        <easyScoreCalculatorClass>org.acme.schooltimetabling.solver.TimeTableEasyScoreCalculator</easyScoreCalculatorClass>
     </scoreDirectorFactory>
     <constructionHeuristic>
     </constructionHeuristic>
